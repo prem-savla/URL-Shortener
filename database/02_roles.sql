@@ -1,4 +1,4 @@
-CREATE ROLE url_app
+CREATE ROLE app
 WITH
     LOGIN
     PASSWORD '0000'
@@ -7,4 +7,4 @@ WITH
     NOCREATEROLE
     NOREPLICATION;
 
-GRANT CONNECT ON DATABASE urlshortener TO url_app;
+GRANT CONNECT ON DATABASE urlshortener TO app;

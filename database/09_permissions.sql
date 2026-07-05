@@ -1,15 +1,15 @@
 GRANT USAGE
 ON SCHEMA public
-TO url_app;
+TO app;
 
 GRANT USAGE
 ON ALL TYPES IN SCHEMA public
-TO url_app;
+TO app;
 
 GRANT SELECT, INSERT, UPDATE, DELETE
 ON ALL TABLES IN SCHEMA public
-TO url_app;
+TO app;
 
 GRANT USAGE, SELECT
 ON ALL SEQUENCES IN SCHEMA public
-TO url_app;
+TO app;

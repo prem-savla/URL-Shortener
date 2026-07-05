@@ -38,7 +38,7 @@ services:
 
     environment:
       SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/urlshortener
-      SPRING_DATASOURCE_USERNAME: url_app
+      SPRING_DATASOURCE_USERNAME: app
       SPRING_DATASOURCE_PASSWORD: 0000
 
 volumes:
